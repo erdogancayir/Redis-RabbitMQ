@@ -16,3 +16,6 @@ CMD [ "redis-server"]
 #docker exec -it redis-container sh
 #redis-cli
 #config set protected-mode no
+
+#RUN: RUN komutu, Docker imajını oluştururken çalıştırılır 
+#CMD: CMD komutu, Docker konteyneri başlatıldığında çalıştırılacak varsayılan komutu veya betiği belirtir.
