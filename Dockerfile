@@ -19,3 +19,4 @@ CMD [ "redis-server"]
 
 #RUN: RUN komutu, Docker imajını oluştururken çalıştırılır 
 #CMD: CMD komutu, Docker konteyneri başlatıldığında çalıştırılacak varsayılan komutu veya betiği belirtir.
+#Bir Dockerfile'da birden fazla CMD komutu bulunabilir, ancak sadece sonuncusu etkili olur. 
