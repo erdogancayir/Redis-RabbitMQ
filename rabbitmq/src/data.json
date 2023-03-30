@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 28,
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "age": 32,
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anytown",
+        "state": "NY",
+        "zip": "54321"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "age": 45,
+      "address": {
+        "street": "789 Oak St",
+        "city": "Anytown",
+        "state": "TX",
+        "zip": "67890"
+      }
+    }
+  ]
+  
