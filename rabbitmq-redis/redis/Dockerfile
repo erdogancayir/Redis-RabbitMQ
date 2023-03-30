@@ -10,11 +10,10 @@ EXPOSE 6379
 # Start Redis
 CMD [ "redis-server"]
 
-
 # ***** dışarıya açmak için redisi ya da redis.conf da düzenleriz******
 #sudo docker build -t redis-image .
 #sudo docker run -d -p 6379:6379 --name redis_container redis-image
-#docker exec -it redis-container sh
+#docker exec -it redis_container sh
 #redis-cli
 #config set protected-mode no
 

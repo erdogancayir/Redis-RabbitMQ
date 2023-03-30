@@ -8,7 +8,7 @@ const client = redis.createClient({
 
 async function receiveFromQueue() {
     try {
-        const _connection = await amqp.connect("amqp://localhost");
+        const _connection = await amqp.connect("amqp://myuser:mypassword@172.17.0.3");
         const _channel = await _connection.createChannel();
         const _queue = "one_queue";
 

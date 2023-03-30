@@ -5,7 +5,7 @@ const _queue = process.argv[2] || "one_queue";
 let _message;
 async function _send() {
     try {
-        const _connection = await amqp.connect("amqp://localhost");
+        const _connection = await amqp.connect("amqp://myuser:mypassword@172.17.0.3");
         const _channel = await _connection.createChannel();
         await _channel.assertQueue(_queue);
 
